@@ -1,77 +1,77 @@
 === NF BOARD ===
 Contributors: nflint
 Donate link: http://nfboard.co.kr/
-Tags: nfboard, nf board, NF-board, board, ¿£ÇÃ¸°Æ® º¸µå, ¿£¿¡ÇÁ º¸µå
+Tags: nfboard, nf board, NF-board, board, ì—”í”Œë¦°íŠ¸ ë³´ë“œ, ì—”ì—í”„ ë³´ë“œ
 Requires at least: 3.8
 Tested up to: 4.0
 Stable tag: 3.9.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-NF BOARD ´Â ¿öµåÇÁ·¹½º ±â¹ÝÀÇ ÇÃ·¯±×ÀÎ ÇüÅÂ·Î ÀÛµ¿ÇÏ´Â 
-´©±¸³ª Ä£¼÷ÇÏ°Ô Æí¸®ÇÏ°Ô ÀÌ¿ëÀÌ °¡´ÉÇÑ ÇÑ±¹Çü È¸¿ø°ü¸® & °Ô½ÃÆÇ ÅëÇÕº¸µå ÇÃ·¯±×ÀÎ ÀÔ´Ï´Ù.
+NF BOARD ëŠ” ì›Œë“œí”„ë ˆìŠ¤ ê¸°ë°˜ì˜ í”ŒëŸ¬ê·¸ì¸ í˜•íƒœë¡œ ìž‘ë™í•˜ëŠ” 
+ëˆ„êµ¬ë‚˜ ì¹œìˆ™í•˜ê²Œ íŽ¸ë¦¬í•˜ê²Œ ì´ìš©ì´ ê°€ëŠ¥í•œ í•œêµ­í˜• íšŒì›ê´€ë¦¬ & ê²Œì‹œíŒ í†µí•©ë³´ë“œ í”ŒëŸ¬ê·¸ì¸ ìž…ë‹ˆë‹¤.
 
 == Description ==
 
-NF BOARD [¿£ÇÃ¸°Æ® º¸µå](http://nfboard.co.kr) ´Â ¿öµåÇÁ·¹½º ±â¹ÝÀÇ ÇÃ·¯±×ÀÎ ÇüÅÂ·Î ÀÛµ¿ÇÏ´Â 
-´©±¸³ª Ä£¼÷ÇÏ°Ô Æí¸®ÇÏ°Ô ÀÌ¿ëÀÌ °¡´ÉÇÑ ÇÑ±¹Çü È¸¿ø°ü¸® & °Ô½ÃÆÇ ÅëÇÕº¸µå ÇÃ·¯±×ÀÎ ÀÔ´Ï´Ù.
+NF BOARD [ì—”í”Œë¦°íŠ¸ ë³´ë“œ](http://nfboard.co.kr) ëŠ” ì›Œë“œí”„ë ˆìŠ¤ ê¸°ë°˜ì˜ í”ŒëŸ¬ê·¸ì¸ í˜•íƒœë¡œ ìž‘ë™í•˜ëŠ” 
+ëˆ„êµ¬ë‚˜ ì¹œìˆ™í•˜ê²Œ íŽ¸ë¦¬í•˜ê²Œ ì´ìš©ì´ ê°€ëŠ¥í•œ í•œêµ­í˜• íšŒì›ê´€ë¦¬ & ê²Œì‹œíŒ í†µí•©ë³´ë“œ í”ŒëŸ¬ê·¸ì¸ ìž…ë‹ˆë‹¤.
 
-* ¿öµåÇÁ·¹½º ÇÑ±¹Çü °Ô½ÃÆÇ È¸¿ø°ü¸®&°Ô½ÃÆÇ ÅëÇÕ °ü¸® ¼Ö·ç¼Ç
+* ì›Œë“œí”„ë ˆìŠ¤ í•œêµ­í˜• ê²Œì‹œíŒ íšŒì›ê´€ë¦¬&ê²Œì‹œíŒ í†µí•© ê´€ë¦¬ ì†”ë£¨ì…˜
 
-= NF board È¸¿ø°ü¸® & °Ô½ÃÆÇ Æ¯ÀåÁ¡ =
+= NF board íšŒì›ê´€ë¦¬ & ê²Œì‹œíŒ íŠ¹ìž¥ì  =
 
-* È¸¿ø°ü¸® ±â´É
-¿öµåÇÁ·¹½º È¸¿ø°ü¸®¿Í 100% ¿¬µ¿ 
-È¸¿ø°¡ÀÔ½Ã ÀÔ·ÂÇ×¸ñ ¼³Á¤ ±â´É
-ÀÌ¿ë¾à°ü, °³ÀÎÁ¤º¸ Ãë±Þ¹æÄ§ ¼³Á¤
-È¸¿ø°¡ÀÔÈÄ ¸ÞÀÏ º¸³»±â ¼³Á¤ ±â´É Á¦°ø 
-±âº» µµ·Î¸í ÁÖ¼Ò µî·Ï¹× °ø°øµ¥ÀÌÅÍ Æ÷ÅÐ, Daum ¿ìÆí¹øÈ£ API ¿¬µ¿ °¡´É
+* íšŒì›ê´€ë¦¬ ê¸°ëŠ¥
+ì›Œë“œí”„ë ˆìŠ¤ íšŒì›ê´€ë¦¬ì™€ 100% ì—°ë™ 
+íšŒì›ê°€ìž…ì‹œ ìž…ë ¥í•­ëª© ì„¤ì • ê¸°ëŠ¥
+ì´ìš©ì•½ê´€, ê°œì¸ì •ë³´ ì·¨ê¸‰ë°©ì¹¨ ì„¤ì •
+íšŒì›ê°€ìž…í›„ ë©”ì¼ ë³´ë‚´ê¸° ì„¤ì • ê¸°ëŠ¥ ì œê³µ 
+ê¸°ë³¸ ë„ë¡œëª… ì£¼ì†Œ ë“±ë¡ë° ê³µê³µë°ì´í„° í¬í„¸, Daum ìš°íŽ¸ë²ˆí˜¸ API ì—°ë™ ê°€ëŠ¥
 
-* °Ô½ÃÆÇ ±â´É
-ÃÖ½Å±Û Á¦°ø
-ÀÚµ¿±Û µî·Ï¹æÁö ±â´É
-°Ô½Ã¹° ÇÊÅÍ¸µ ±â´É 
-°Ô½ÃÆÇ ±ÇÇÑ¼³Á¤ ±â´É (ºñÈ¸¿ø, È¸¿ø, °ü¸®ÀÚ)
-°ü¸®ÀÚ ´ÙÁß ¼¿·ºÆ® »èÁ¦ 
-´ñ±Û ±â´É,ºñ¹Ð±Û ±â´É, °øÁö±â´É, ÆÄÀÏÃ·ºÎ ±â´É
-ºñÈ¸¿ø °³ÀÎÁ¤º¸ ¼öÁý¹× È°¿ëµ¿ÀÇ ±â´É
-°Ô½Ã±Û ÀÛ¼º½Ã ¿öµåÇÁ·¹½º ¿¡µðÅÍ ¼³Á¤°¡´É
+* ê²Œì‹œíŒ ê¸°ëŠ¥
+ìµœì‹ ê¸€ ì œê³µ
+ìžë™ê¸€ ë“±ë¡ë°©ì§€ ê¸°ëŠ¥
+ê²Œì‹œë¬¼ í•„í„°ë§ ê¸°ëŠ¥ 
+ê²Œì‹œíŒ ê¶Œí•œì„¤ì • ê¸°ëŠ¥ (ë¹„íšŒì›, íšŒì›, ê´€ë¦¬ìž)
+ê´€ë¦¬ìž ë‹¤ì¤‘ ì…€ë ‰íŠ¸ ì‚­ì œ 
+ëŒ“ê¸€ ê¸°ëŠ¥,ë¹„ë°€ê¸€ ê¸°ëŠ¥, ê³µì§€ê¸°ëŠ¥, íŒŒì¼ì²¨ë¶€ ê¸°ëŠ¥
+ë¹„íšŒì› ê°œì¸ì •ë³´ ìˆ˜ì§‘ë° í™œìš©ë™ì˜ ê¸°ëŠ¥
+ê²Œì‹œê¸€ ìž‘ì„±ì‹œ ì›Œë“œí”„ë ˆìŠ¤ ì—ë””í„° ì„¤ì •ê°€ëŠ¥
 
-Shortcode(¼ô ÄÚµå) Á¦°ø 
-·Î±×ÀÎ, È¸¿ø°¡ÀÔ/Á¤º¸¼öÁ¤, ¾ÆÀÌµðÃ£±â, ºñ¹Ð¹øÈ£ Ã£±â, ÃÖ½Å±Û, °Ô½ÃÆÇ À»
-ÆäÀÌÁö³»¿¡ ¿øÇÏ´Â ºÎºÐ¿¡ ´ÜÃà ÄÚµå¸¦ ºÙÇô ³ÖÀ»¼ö ÀÖ±â ¶§¹®¿¡ ½±°Ô ÆäÀÌÁö µðÀÚÀÎ °¡´É
+Shortcode(ìˆ ì½”ë“œ) ì œê³µ 
+ë¡œê·¸ì¸, íšŒì›ê°€ìž…/ì •ë³´ìˆ˜ì •, ì•„ì´ë””ì°¾ê¸°, ë¹„ë°€ë²ˆí˜¸ ì°¾ê¸°, ìµœì‹ ê¸€, ê²Œì‹œíŒ ì„
+íŽ˜ì´ì§€ë‚´ì— ì›í•˜ëŠ” ë¶€ë¶„ì— ë‹¨ì¶• ì½”ë“œë¥¼ ë¶™í˜€ ë„£ì„ìˆ˜ ìžˆê¸° ë•Œë¬¸ì— ì‰½ê²Œ íŽ˜ì´ì§€ ë””ìžì¸ ê°€ëŠ¥
 
-»ç¿ëÀÚ°¡ ÀÚÀ¯·Ó°Ô ¿øÇÏ´Â ½ºÅ¸ÀÏ·Î ÀÛ¾÷°¡´ÉÇÑ ½ºÅ² ÇüÅÂÀÇ ÆÄÀÏ·Î ¼±ÅÃÁ¦°ø
+ì‚¬ìš©ìžê°€ ìžìœ ë¡­ê²Œ ì›í•˜ëŠ” ìŠ¤íƒ€ì¼ë¡œ ìž‘ì—…ê°€ëŠ¥í•œ ìŠ¤í‚¨ í˜•íƒœì˜ íŒŒì¼ë¡œ ì„ íƒì œê³µ
 
 == Installation ==
 
 
-1. »ç¿ëÁßÀÎ °èÁ¤³»¿¡ FTP ¼­¹ö¿¡ Á¢¼Ó
-2. ¿öµåÇÁ·¹½º ¼³Ä¡ °¡ ¼³Ä¡µÈ ÇÃ·¯±×ÀÎ µð·ºÅä¸® `/wp-content/plugins/` ¿¡ ÆÄÀÏ ¾÷·Îµå ÈÄ ¾ÐÃà ÇØÁ¦ 
-3. ¿öµåÇÁ·¹½º °ü¸®ÀÚ ·Î±×ÀÎ ÀÌÈÄ¿¡ °ü¸® ÆäÀÌÁö¿¡¼­ ÇÃ·¯±×ÀÎ -> ¼³Ä¡µÈ ÇÃ·¯±×ÀÎ -> NF BOARD ÇÃ·¯±×ÀÎ È°¼ºÈ­
+1. ì‚¬ìš©ì¤‘ì¸ ê³„ì •ë‚´ì— FTP ì„œë²„ì— ì ‘ì†
+2. ì›Œë“œí”„ë ˆìŠ¤ ì„¤ì¹˜ ê°€ ì„¤ì¹˜ëœ í”ŒëŸ¬ê·¸ì¸ ë””ë ‰í† ë¦¬ `/wp-content/plugins/` ì— íŒŒì¼ ì—…ë¡œë“œ í›„ ì••ì¶• í•´ì œ 
+3. ì›Œë“œí”„ë ˆìŠ¤ ê´€ë¦¬ìž ë¡œê·¸ì¸ ì´í›„ì— ê´€ë¦¬ íŽ˜ì´ì§€ì—ì„œ í”ŒëŸ¬ê·¸ì¸ -> ì„¤ì¹˜ëœ í”ŒëŸ¬ê·¸ì¸ -> NF BOARD í”ŒëŸ¬ê·¸ì¸ í™œì„±í™”
 
 
 == Frequently Asked Questions ==
 
-= Q : NF BOARD ÀÛµ¿ È¯°æ¼­¹ö ¸¦ ¾Ë°í ½Í½À´Ï´Ù. =
+= Q : NF BOARD ìž‘ë™ í™˜ê²½ì„œë²„ ë¥¼ ì•Œê³  ì‹¶ìŠµë‹ˆë‹¤. =
 
 
-NF BOARD ´Â ¿öµåÇÁ·¹½º °¡ ¼³Ä¡µÇ¾î ÀÖ´Â È¯°æÀÌ¶ó¸é 100% Áö¿øÀ» ÇÕ´Ï´Ù. ÇöÀç ¿öµåÇÁ·¹½º ÃÖ½Å¹öÁ¯ÀÎ 4.x ¿¡¼­ Áö¿øÀ» ÇÕ´Ï´Ù.
+NF BOARD ëŠ” ì›Œë“œí”„ë ˆìŠ¤ ê°€ ì„¤ì¹˜ë˜ì–´ ìžˆëŠ” í™˜ê²½ì´ë¼ë©´ 100% ì§€ì›ì„ í•©ë‹ˆë‹¤. í˜„ìž¬ ì›Œë“œí”„ë ˆìŠ¤ ìµœì‹ ë²„ì ¼ì¸ 4.x ì—ì„œ ì§€ì›ì„ í•©ë‹ˆë‹¤.
 
-= Q : NF BOARD ½ºÅ²À» ¼öÁ¤ÇÏ°í ½Í½À´Ï´Ù. ½ºÅ²ÆÄÀÏ À§Ä¡ °¡ ¾îµðÀÎ°¡¿ä ? =
-
-
-/¿öµåÇÁ·¹½º ¼³Ä¡µÈ °æ·Î/wp-content/plugins/NF-Board/templates/board/ °Ô½ÃÆÇ ½ºÅ²
-/¿öµåÇÁ·¹½º ¼³Ä¡µÈ °æ·Î/wp-content/plugins/NF-Board/templates/Member/ È¸¿ø°ü¸® ½ºÅ²
-
-À§¿¡ °æ·Î¿¡ Á¢¼ÓÀ» ÇÑ´ÙÀ½ Default ±âº» ½ºÅ² ÆÄÀÏÀÇ ÀÌ¸§À» º¯°æ ÇÏ°í »ç¿ëÀÚ ÀÓÀÇÀûÀ¸·Î CSS ½ºÅ¸ÀÏÀ» ¼öÁ¤ÇÏ°Å³ª php ÆÄÀÏÀ» ¼öÁ¤ ÇÏ¸é µË´Ï´Ù.
-
-= Q : NF BOARD ¼³Ä¡ ¹æ¹ýÀ» ¾Ë°í ½Í½À´Ï´Ù ? =
+= Q : NF BOARD ìŠ¤í‚¨ì„ ìˆ˜ì •í•˜ê³  ì‹¶ìŠµë‹ˆë‹¤. ìŠ¤í‚¨íŒŒì¼ ìœ„ì¹˜ ê°€ ì–´ë””ì¸ê°€ìš” ? =
 
 
-FTP ¼­¹ö¿¡ Á¢¼ÓÀ» ÇÏ¿© /¿öµåÇÁ·¹½º ¼³Ä¡µÈ °æ·Î/wp-content/plugins µð·ºÅä¸® ³»¿¡
-NF-barod_*.zip  ÆÄÀÏÀ» ¾÷·Îµå ÇÑ´ÙÀ½ ÇÃ·¯±×ÀÎ ÆäÀÌÁö³»¿¡¼­ NF BOARD ¡°È°¼ºÈ­¡±
-À» ÇØÁÖ½Ã¸é µË´Ï´Ù.
+/ì›Œë“œí”„ë ˆìŠ¤ ì„¤ì¹˜ëœ ê²½ë¡œ/wp-content/plugins/NF-Board/templates/board/ ê²Œì‹œíŒ ìŠ¤í‚¨
+/ì›Œë“œí”„ë ˆìŠ¤ ì„¤ì¹˜ëœ ê²½ë¡œ/wp-content/plugins/NF-Board/templates/Member/ íšŒì›ê´€ë¦¬ ìŠ¤í‚¨
+
+ìœ„ì— ê²½ë¡œì— ì ‘ì†ì„ í•œë‹¤ìŒ Default ê¸°ë³¸ ìŠ¤í‚¨ íŒŒì¼ì˜ ì´ë¦„ì„ ë³€ê²½ í•˜ê³  ì‚¬ìš©ìž ìž„ì˜ì ìœ¼ë¡œ CSS ìŠ¤íƒ€ì¼ì„ ìˆ˜ì •í•˜ê±°ë‚˜ php íŒŒì¼ì„ ìˆ˜ì • í•˜ë©´ ë©ë‹ˆë‹¤.
+
+= Q : NF BOARD ì„¤ì¹˜ ë°©ë²•ì„ ì•Œê³  ì‹¶ìŠµë‹ˆë‹¤ ? =
+
+
+FTP ì„œë²„ì— ì ‘ì†ì„ í•˜ì—¬ /ì›Œë“œí”„ë ˆìŠ¤ ì„¤ì¹˜ëœ ê²½ë¡œ/wp-content/plugins ë””ë ‰í† ë¦¬ ë‚´ì—
+NF-barod_*.zip  íŒŒì¼ì„ ì—…ë¡œë“œ í•œë‹¤ìŒ í”ŒëŸ¬ê·¸ì¸ íŽ˜ì´ì§€ë‚´ì—ì„œ NF BOARD â€œí™œì„±í™”â€
+ì„ í•´ì£¼ì‹œë©´ ë©ë‹ˆë‹¤.
 
 
 == Screenshots ==
@@ -85,7 +85,7 @@ NF-barod_*.zip  ÆÄÀÏÀ» ¾÷·Îµå ÇÑ´ÙÀ½ ÇÃ·¯±×ÀÎ ÆäÀÌÁö³»¿¡¼­ NF BOARD ¡°È°¼ºÈ­¡±
 
 = 1.0 =
 
-* [NF BOARD](http://nfboard.co.kr)¹èÆ÷ ½ÃÀÛ 
+* [NF BOARD](http://nfboard.co.kr)ë°°í¬ ì‹œìž‘ 
 
 
 
