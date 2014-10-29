@@ -3,7 +3,7 @@ if(!function_exists('NFBoardList')){
 	function NFBoardList(){
 		global $wpdb;
 
-		wp_enqueue_script( 'ajax-script', plugins_url(). '/NF-Board/inc/js/admin-board.js', array('jquery'), 1.0 );
+		wp_enqueue_script( 'ajax-script', plugins_url('/',__FILE__). 'inc/js/admin-board.js', array('jquery'), 1.0 );
 		wp_localize_script( 'ajax-script', 'ajax_object', array( 'ajaxurl' => admin_url( 'admin-ajax.php' ) ) );
 
 		if(!empty($_POST['check'])) $check = $_POST['check'];
@@ -64,7 +64,7 @@ if(!function_exists('NFBoardAdd')){
 	function NFBoardAdd(){
 		global $wpdb;
 
-		wp_enqueue_script( 'ajax-script', plugins_url(). '/NF-Board/inc/js/admin-board.js', array('jquery'), 1.0 );
+		wp_enqueue_script( 'ajax-script', plugins_url('/',__FILE__). 'inc/js/admin-board.js', array('jquery'), 1.0 );
 		wp_localize_script( 'ajax-script', 'ajax_object', array( 'ajaxurl' => admin_url( 'admin-ajax.php' ) ) );
 
 		$tMode = "";
