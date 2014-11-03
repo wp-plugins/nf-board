@@ -88,5 +88,9 @@ NF-barod_*.zip  파일을 업로드 한다음 플러그인 페이지내에서 NF
 
 * [NF BOARD](http://nfboard.co.kr) 배포 시작 
 
+= 1.0.1 =
+
+* Bugfix 환경설정 미적용 현상 수정
+
 
 
