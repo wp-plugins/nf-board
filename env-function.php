@@ -266,15 +266,15 @@ if(!function_exists('NFB_MakeBoardCode')){
 			ob_start();
 			$NFB_Class = new NFB_Board;
 			if(empty($_GET['mode']) || $_GET['mode'] == 'list'){
-				wp_enqueue_script( 'ajax-script', plugins_url(). '/NF-Board/templates/board/'.get_option("NFB_skin").'/js/tf_list.js', array('jquery'), 1.0 );
+				wp_enqueue_script( 'ajax-script', plugins_url('/',__FILE__). 'templates/board/'.get_option("NFB_skin").'/js/tf_list.js', array('jquery'), 1.0 );
 				wp_localize_script( 'ajax-script', 'ajax_object', array( 'ajaxurl' => admin_url( 'admin-ajax.php' ) ) );
 				$NFB_Class->LoadList($args['bname']);
 			}else if(!empty($_GET['mode']) && $_GET['mode'] == 'write'){
-				wp_enqueue_script( 'ajax-script', plugins_url(). '/NF-Board/templates/board/'.get_option("NFB_skin").'/js/tf_write.js', array('jquery'), 1.0 );
+				wp_enqueue_script( 'ajax-script', plugins_url('/',__FILE__). 'templates/board/'.get_option("NFB_skin").'/js/tf_write.js', array('jquery'), 1.0 );
 				wp_localize_script( 'ajax-script', 'ajax_object', array( 'ajaxurl' => admin_url( 'admin-ajax.php' ) ) );
 				$NFB_Class->LoadWrite($args['bname']);
 			}else if((!empty($_GET['mode']) && $_GET['mode'] == 'view') && (!empty($_GET['no']) && $_GET['no'] > 0)){
-				wp_enqueue_script( 'ajax-script', plugins_url(). '/NF-Board/templates/board/'.get_option("NFB_skin").'/js/tf_view.js', array('jquery'), 1.0 );
+				wp_enqueue_script( 'ajax-script', plugins_url('/',__FILE__). 'templates/board/'.get_option("NFB_skin").'/js/tf_view.js', array('jquery'), 1.0 );
 				wp_localize_script( 'ajax-script', 'ajax_object', array( 'ajaxurl' => admin_url( 'admin-ajax.php' ) ) );
 				$NFB_Class->LoadView($args['bname']);
 			}
@@ -337,7 +337,7 @@ if(!function_exists('NFB_LatestShortcode')){
 if(!function_exists('NFB_JoinShortcode')){
 	function NFB_JoinShortcode($atts, $content=null){
 		global $wpdb;
-		wp_enqueue_script( 'ajax-script-join', plugins_url(). '/NF-Board/templates/member/'.get_option("NFB_skin").'/js/tf_join.js', array('jquery'), 1.0 );
+		wp_enqueue_script( 'ajax-script-join', plugins_url('/',__FILE__). 'templates/member/'.get_option("NFB_skin").'/js/tf_join.js', array('jquery'), 1.0 );
 		wp_localize_script( 'ajax-script-join', 'ajax_object', array( 'ajaxurl' => admin_url( 'admin-ajax.php' ) ) );
 		ob_start();
 		$current_user = wp_get_current_user();	
@@ -351,7 +351,8 @@ if(!function_exists('NFB_JoinShortcode')){
 if(!function_exists('NFB_LoginShortcode')){
 	function NFB_LoginShortcode($atts, $content=null){
 		global $wpdb;
-		wp_enqueue_script( 'ajax-script-login', plugins_url(). '/NF-Board/templates/member/'.get_option("NFB_skin").'/js/tf_login.js', array('jquery'), 1.0 );
+
+		wp_enqueue_script( 'ajax-script-login', plugins_url('/',__FILE__). 'templates/member/'.get_option("NFB_skin").'/js/tf_login.js', array('jquery'), 1.0 );
 		wp_localize_script( 'ajax-script-login', 'ajax_object', array( 'ajaxurl' => admin_url( 'admin-ajax.php' ) ) );
 		ob_start();
 		$current_user = wp_get_current_user();	
@@ -365,7 +366,7 @@ if(!function_exists('NFB_LoginShortcode')){
 if(!function_exists('NFB_IDFindShortcode')){
 	function NFB_IDFindShortcode($atts, $content=null){
 		global $wpdb;
-		wp_enqueue_script( 'ajax-script-id-find', plugins_url(). '/NF-Board/templates/member/'.get_option("NFB_skin").'/js/tf_id_find.js', array('jquery'), 1.0 );
+		wp_enqueue_script( 'ajax-script-id-find', plugins_url('/',__FILE__). 'templates/member/'.get_option("NFB_skin").'/js/tf_id_find.js', array('jquery'), 1.0 );
 		wp_localize_script( 'ajax-script-id-find', 'ajax_object', array( 'ajaxurl' => admin_url( 'admin-ajax.php' ) ) );
 		ob_start();
 		$current_user = wp_get_current_user();	
@@ -379,7 +380,7 @@ if(!function_exists('NFB_IDFindShortcode')){
 if(!function_exists('NFB_PWFindShortcode')){
 	function NFB_PWFindShortcode($atts, $content=null){
 		global $wpdb;
-		wp_enqueue_script( 'ajax-script-pw-find', plugins_url(). '/NF-Board/templates/member/'.get_option("NFB_skin").'/js/tf_pw_find.js', array('jquery'), 1.0 );
+		wp_enqueue_script( 'ajax-script-pw-find', plugins_url('/',__FILE__). 'templates/member/'.get_option("NFB_skin").'/js/tf_pw_find.js', array('jquery'), 1.0 );
 		wp_localize_script( 'ajax-script-pw-find', 'ajax_object', array( 'ajaxurl' => admin_url( 'admin-ajax.php' ) ) );
 		ob_start();
 		$current_user = wp_get_current_user();	
@@ -393,7 +394,7 @@ if(!function_exists('NFB_PWFindShortcode')){
 if(!function_exists('NFB_LeaveShortcode')){
 	function NFB_LeaveShortcode($atts, $content=null){
 		global $wpdb;
-		wp_enqueue_script( 'ajax-script-leave', plugins_url(). '/NF-Board/templates/member/'.get_option("NFB_skin").'/js/tf_leave.js', array('jquery'), 1.0 );
+		wp_enqueue_script( 'ajax-script-leave', plugins_url('/',__FILE__). 'templates/member/'.get_option("NFB_skin").'/js/tf_leave.js', array('jquery'), 1.0 );
 		wp_localize_script( 'ajax-script-leave', 'ajax_object', array( 'ajaxurl' => admin_url( 'admin-ajax.php' ) ) );
 		ob_start();
 		$current_user = wp_get_current_user();	
