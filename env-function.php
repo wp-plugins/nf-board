@@ -406,6 +406,13 @@ if(!function_exists('NFB_LeaveShortcode')){
 	}
 }
 
+if(!function_exists('nfboard_add_query_string')) {
+	function nfboard_add_query_string($qs) {
+		$qs[] = 'NFPage';
+		return $qs;
+	}
+	add_filter('query_vars', 'nfboard_add_query_string');
+}
 
 if(!function_exists('get_custom_template')){
 	function get_custom_template($template) {
