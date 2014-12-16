@@ -3,7 +3,7 @@ if(!function_exists('NFBoardList')){
 	function NFBoardList(){
 		global $wpdb;
 
-		wp_enqueue_script( 'ajax-script', plugins_url(). '/NF-Board/inc/js/admin-board.js', array('jquery'), 1.0 );
+		wp_enqueue_script( 'ajax-script', plugins_url('/',__FILE__). 'inc/js/admin-board.js', array('jquery'), 1.0 );
 		wp_localize_script( 'ajax-script', 'ajax_object', array( 'ajaxurl' => admin_url( 'admin-ajax.php' ) ) );
 
 		if(!empty($_POST['check'])) $check = $_POST['check'];
@@ -64,7 +64,7 @@ if(!function_exists('NFBoardAdd')){
 	function NFBoardAdd(){
 		global $wpdb;
 
-		wp_enqueue_script( 'ajax-script', plugins_url(). '/NF-Board/inc/js/admin-board.js', array('jquery'), 1.0 );
+		wp_enqueue_script( 'ajax-script', plugins_url('/',__FILE__). 'inc/js/admin-board.js', array('jquery'), 1.0 );
 		wp_localize_script( 'ajax-script', 'ajax_object', array( 'ajaxurl' => admin_url( 'admin-ajax.php' ) ) );
 
 		$tMode = "";
@@ -152,7 +152,7 @@ if(!function_exists('NFBoardAdd')){
 			
 			}else{
 				if(!empty($_POST['b_no'])){
-					$sql = $wpdb->prepare("update NFB_board set b_skin=%s, b_type=%s, b_editor=%s, b_width=%s, b_align=%s, b_psize=%s, b_category=%s, b_filter_use=%s, b_filter_list=%s, b_pds_use=%s, b_agree_use =%s, b_filesize=%s, b_comment_use=%s, b_secret_use=%s, b_notice_use=%s, b_spam=%s, b_read_lv=%s, b_comment_lv=%s, b_write_lv=%s, b_seo_use=%s, b_seo_title=%s, b_seo_desc=%s, b_seo_keywords=%s, b_hit_hide=%s, b_writer_hide=%s, b_facebook_use=%s, b_twitter_use=%s, b_hms_use=%s, b_latest_page=%s where b_no=%s", $_POST['b_skin'], $_POST['b_type'], $_POST['b_editor'], $_POST['b_width'], $_POST['b_align'], $_POST['b_psize'], $_POST['b_category'], $_POST['b_filter_use'], $_POST['b_secret_use'], $_POST['b_notice_use'], $_POST['b_spam'], $_POST['b_read_lv'], $_POST['b_comment_lv'], $_POST['b_write_lv'], $_POST['b_seo_use'], $_POST['b_seo_title'], $_POST['b_seo_desc'], $_POST['b_seo_keywords'], $_POST['b_hit_hide'], $_POST['b_writer_hide'], $_POST['b_facebook_use'], $_POST['b_twitter_use'], $_POST['b_hms_use'], $_POST['b_latest_page'], $_POST['b_no']);
+					$sql = $wpdb->prepare("update NFB_board set b_skin=%s, b_type=%s, b_editor=%s, b_width=%s, b_align=%s, b_psize=%s, b_category=%s, b_filter_use=%s, b_filter_list=%s, b_pds_use=%s, b_agree_use =%s, b_filesize=%s, b_comment_use=%s, b_secret_use=%s, b_notice_use=%s, b_spam=%s, b_read_lv=%s, b_comment_lv=%s, b_write_lv=%s, b_seo_use=%s, b_seo_title=%s, b_seo_desc=%s, b_seo_keywords=%s, b_hit_hide=%s, b_writer_hide=%s, b_facebook_use=%s, b_twitter_use=%s, b_hms_use=%s, b_latest_page=%s where b_no=%s", $_POST['b_skin'], $_POST['b_type'], $_POST['b_editor'], $_POST['b_width'], $_POST['b_align'], $_POST['b_psize'], $_POST['b_category'], $_POST['b_filter_use'], $_POST['b_filter_list'], $_POST['b_pds_use'], $_POST['b_agree_use'], $_POST['b_filesize'], $_POST['b_comment_use'], $_POST['b_secret_use'], $_POST['b_notice_use'], $_POST['b_spam'], $_POST['b_read_lv'], $_POST['b_comment_lv'], $_POST['b_write_lv'], $_POST['b_seo_use'], $_POST['b_seo_title'], $_POST['b_seo_desc'], $_POST['b_seo_keywords'], $_POST['b_hit_hide'], $_POST['b_writer_hide'], $_POST['b_facebook_use'], $_POST['b_twitter_use'], $_POST['b_hms_use'], $_POST['b_latest_page'], $_POST['b_no']);
 					$wpdb->query($sql);
 					$b_no = $_POST['b_no'];
 					$tMode = "modify";
