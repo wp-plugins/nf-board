@@ -1,6 +1,6 @@
 <?php
 $uploadPath = wp_upload_dir();
-define("NFB_VER", "v1.0.1");
+define("NFB_VER", "v1.0.2");
 define("NFB_ABS", plugin_dir_path(__FILE__));
 define("NFB_WEB", plugins_url('/',__FILE__));
 define("NFB_HOME_URL", home_url());
