@@ -151,7 +151,7 @@
 			if($bData->re_level > 0) $reicon = "&nbsp;<img src='".NFB_WEB."templates/board/".$brdSet->b_skin."/images/btn_reply_icon.gif' alt='답글'/>&nbsp;";
 			else $reicon = "";
 
-			if($brdSet->b_secret_use == 1 && $bData->b_secret_use > 0) $secret = "&nbsp;<img src='".NFB_WEB."templates/board/".$brdSet->b_skin."/images/icon_secret.gif' style='vertical-align:middle' alt='비밀글' />";
+			if($brdSet->b_secret_use == 1 && $bData->use_secret > 0) $secret = "&nbsp;<img src='".NFB_WEB."templates/board/".$brdSet->b_skin."/images/icon_secret.gif' style='vertical-align:middle' alt='비밀글' />";
 			else $secret = "";
 
 			if(!empty($bData->file1) || !empty($bData->file2)) $addfile = "<img src='".NFB_WEB."templates/board/".$brdSet->b_skin."/images/icon_file.gif' alt='첨부파일' />";

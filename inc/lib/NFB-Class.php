@@ -368,7 +368,7 @@ class NFB_Board {
 			return "";
 		}
 
-		if((!empty($brdSet->b_secret_use) && $brdSet->b_secret_use == 1) && (!empty($brdData->b_secret_use) && $brdData->b_secret_use == 1) && empty($_POST['passcheck'])){
+		if((!empty($brdSet->b_secret_use) && $brdSet->b_secret_use == 1) && (!empty($brdData->use_secret) && $brdData->use_secret == 1) && empty($_POST['passcheck'])){
 			if(empty($curUserPermision) || $curUserPermision != "administrator"){
 				if(!empty($brdData->listnum) && $brdData->listnum == 1){  // 원본글
 					if(empty($brdData->memnum) || $brdData->memnum == 0){
