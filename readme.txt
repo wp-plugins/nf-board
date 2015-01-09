@@ -1,7 +1,7 @@
 === NF BOARD ===
-Contributors: 
-Donate link: 
-Tags: 
+Contributors: nflint
+Donate link: http://nfboard.co.kr/
+Tags: nfboard, nf board, NF-board, board, 엔플린트 보드, 엔에프 보드
 Requires at least: 3.8
 Tested up to: 4.0
 Stable tag: 3.9.3
